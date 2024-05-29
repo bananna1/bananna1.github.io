@@ -14,7 +14,7 @@ The trader focuses on accumulating as many goods as possible, each time ponderin
 [https://github.com/davipase/HouseLocker.git](https://github.com/davipase/HouseLocker.git)\
 [Link to report](assets/reports/report_houselocker.pdf)
 #### Contributors
-William Riccardo Duro, Anna Giacomello, Davide Pasetto, Federico Valbusa
+William Riccardo Duro (_yaphewill_), Anna Giacomello, Davide Pasetto (_davipase_), Federico Valbusa (_FedericoValbusa_)
 #### Languages
 Solidity, JavaScript
 #### Description
@@ -28,7 +28,7 @@ The project includes a zero-knowledge proof mechanism implemented during user re
 [https://github.com/bananna1/ASA_dunder_mifflin.git](https://github.com/bananna1/ASA_dunder_mifflin.git)\
 [Link to report](assets/reports/report_asa.pdf)
 #### Contributors
-Anna Giacomello, Davide Pasetto
+Anna Giacomello, Davide Pasetto (_davipase_)
 #### Languages
 JavaScript, PDDL
 #### Description
@@ -44,7 +44,7 @@ its intentions and actions based on the changing environment. The choice of the 
 [https://github.com/bananna1/Project_DS_Giacomello_Vecellio.git](https://github.com/bananna1/Project_DS_Giacomello_Vecellio.git)\
 [Link to report](assets/reports/report_ds.pdf)
 #### Contributors
-Anna Giacomello, Martina Vecellio Reane
+Anna Giacomello, Martina Vecellio Reane (_martinavecellio12_)
 #### Languages
 Java
 #### Description
@@ -64,7 +64,7 @@ It should discard those items that are no longer under its responsibility (due t
 [https://gitlab.com/smaniottonicola/ssssss.git](https://gitlab.com/smaniottonicola/ssssss.git)\
 [Link to report](assets/reports/report_ssssss.pdf)
 #### Contributors
-William Riccardo Duro, Anna Giacomello, Nicola Smaniotto
+William Riccardo Duro (_yaphewill_), Anna Giacomello, Nicola Smaniotto (_NicolaSmaniotto_)
 #### Languages
 Java
 #### Description
