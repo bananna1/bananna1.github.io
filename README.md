@@ -33,31 +33,13 @@ Anna Giacomello, Davide Pasetto
 ### Languages
 JavaScript, PDDL
 ### Description
-The agent’s decision-making process follows a cyclical workflow: The _sens-
-ingLoop_ function is called periodically, and it generates a list of options based
-on the agent’s observations about the environment surrounding it. The options
-are filtered based on their utility, which is a custom value based on some calcula-
-tions, and the best option is selected for execution. The selected option is added
-to the intention queue, managed by the _IntentionRevisionQueue_ class. _In-
-tentionRevisionQueue_ continuously revises and executes intentions from the
-queue, ensuring that the most recent intentions are considered. Each intention
-is achieved by selecting and executing appropriate plans from the plan library.
-Plan execution involves carrying out sub-intentions and performing actions to
-achieve the desired outcome. The process repeats, allowing the agent to adapt
-its intentions and actions based on the changing environment.
-The choice of the queueing method for the Agent represent the choice of making
-most of the controls over the validity and the goodness of an Intention inside the
-sensingLoop function. We opted for this implementative option because the exe-
-cution and revision of Intentions inside the Agent class is done in an asynchronous
-function, and whilst this allows for a responsive change of Intention based on the
-surrounding environment, it also caused consistency problems when called sev-
-eral times a second. Therefore we found a more sequential approach to yield the
-best result.
-This implementation, however, caused a lot of overhead in the _sensingLoop_
-function because of all the controls made. To make the program faster we de-
-cided to minimize the number of times the plan is updated to avoid obstacles,
-by updating the _beliefSet_ with eventual new obstacles only when those obstacles
-actually represents an obstruction on our path towards the goal.
+The agent’s decision-making process follows a cyclical workflow: The _sensingLoop_ function is called periodically, and it generates a list of options based on the agent’s observations about the environment surrounding it. The options are filtered based on their utility, which is a custom value based on some calcula-
+tions, and the best option is selected for execution. The selected option is added to the intention queue, managed by the _IntentionRevisionQueue_ class. _IntentionRevisionQueue_ continuously revises and executes intentions from the queue, ensuring that the most recent intentions are considered. Each intention is achieved by selecting and executing appropriate plans from the plan library.
+
+Plan execution involves carrying out sub-intentions and performing actions to achieve the desired outcome. The process repeats, allowing the agent to adapt
+its intentions and actions based on the changing environment. The choice of the queueing method for the Agent represent the choice of making most of the controls over the validity and the goodness of an Intention inside the sensingLoop function. We opted for this implementative option because the execution and revision of Intentions inside the Agent class is done in an asynchronous function, and whilst this allows for a responsive change of Intention based on the surrounding environment, it also caused consistency problems when called sev-
+eral times a second. Therefore we found a more sequential approach to yield the best result.\
+This implementation, however, caused a lot of overhead in the _sensingLoop_ function because of all the controls made. To make the program faster we decided to minimize the number of times the plan is updated to avoid obstacles, by updating the _beliefSet_ with eventual new obstacles only when those obstacles actually represents an obstruction on our path towards the goal. 
 
 ## Project DS
 [Link to repository](https://github.com/bananna1/Project_DS_Giacomello_Vecellio.git)\
@@ -73,9 +55,9 @@ To implement replication, the system relies on quorums. Versions are associated 
 A client can either ask to write or read items to any node in the system; the queried node is then responsible of forwarding the request to the ring.
 
 Moreover, nodes can also:\
-• **Join:** a node can join the ring; it relies on another node, called _bootstrapping peer_, to receive information about the ring. Then, the joining node issues requests to the nodes in the ring to receive the items it is going to be responsible for.
+• **Join:** a node can join the ring; it relies on another node, called _bootstrapping peer_, to receive information about the ring. Then, the joining node issues requests to the nodes in the ring to receive the items it is going to be responsible for.\
 • **Leave:** a node can be requested to leave the network. To do so, the leaving node announces its departure to the others and passes its data items to the nodes that become responsible for them after its departure.\
-• **Crash:** a node has not left, it is just considered temporarily unavailable.
+• **Crash:** a node has not left, it is just considered temporarily unavailable.\
 • **Recovery:** when a crashed node is started again, instead of performing the join operation it requests the current set of nodes from a node specified in the recovery request.\
 It should discard those items that are no longer under its responsibility (due to other nodes joining while it was down) and obtain the items that are now under its responsibility (due to nodes leaving).
 
