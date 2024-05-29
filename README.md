@@ -1,7 +1,7 @@
 # Anna Giacomello
 
 ## Trader
-[Link to repository](https://github.com/bananna1/trader.git)
+[https://github.com/bananna1/trader.git](https://github.com/bananna1/trader.git)
 
 #### Contributors
 Anna Giacomello
@@ -12,7 +12,7 @@ Trader implements a BOT that is capable of exchanging currencies with three stoc
 The trader focuses on accumulating as many goods as possible, each time pondering what actions is better: whether to sell or buy, which currency to focus on, which market to focus on.
 
 ## HouseLocker
-[Link to repository](https://github.com/davipase/HouseLocker.git)\
+[https://github.com/davipase/HouseLocker.git](https://github.com/davipase/HouseLocker.git)\
 [Link to report](assets/reports/report_houselocker.pdf)
 #### Contributors
 William Riccardo Duro, Anna Giacomello, Davide Pasetto, Federico Valbusa
@@ -26,23 +26,23 @@ The business relationship is managed by a smart contract, which stores deposits 
 The project includes a zero-knowledge proof mechanism implemented during user registration to verify that the registering entity is indeed the owner of the claimed address. Additionally, if the entity is a student, an additional zero-knowledge proof is conducted to confirm their student status using information sourced from universities, all without compromising privacy. This is necessary as the platform is exclusively available for student tenants.
 
 ## ASA - Dunder Mifflin
-[Link to repository](https://github.com/bananna1/ASA_dunder_mifflin.git)\
+[https://github.com/bananna1/ASA_dunder_mifflin.git](https://github.com/bananna1/ASA_dunder_mifflin.git)\
 [Link to report](assets/reports/report_asa.pdf)
 #### Contributors
 Anna Giacomello, Davide Pasetto
 #### Languages
 JavaScript, PDDL
 #### Description
+This project implements an autonomous software agent's behavior in a map. The purpose of the agent is to retrieve parcels, which have a limited lifetime, and deposit them in certain blocks of the map to obtain points and increment its own score.\
+The project aims at refining the behavior of a single agent in order for it to maximize it score, and then at implementing cooperation mechanisms to collaborate with other agents.
 The agent’s decision-making process follows a cyclical workflow: The _sensingLoop_ function is called periodically, and it generates a list of options based on the agent’s observations about the environment surrounding it. The options are filtered based on their utility, which is a custom value based on some calcula-
 tions, and the best option is selected for execution. The selected option is added to the intention queue, managed by the _IntentionRevisionQueue_ class. _IntentionRevisionQueue_ continuously revises and executes intentions from the queue, ensuring that the most recent intentions are considered. Each intention is achieved by selecting and executing appropriate plans from the plan library.
 
 Plan execution involves carrying out sub-intentions and performing actions to achieve the desired outcome. The process repeats, allowing the agent to adapt
-its intentions and actions based on the changing environment. The choice of the queueing method for the Agent represent the choice of making most of the controls over the validity and the goodness of an Intention inside the sensingLoop function. We opted for this implementative option because the execution and revision of Intentions inside the Agent class is done in an asynchronous function, and whilst this allows for a responsive change of Intention based on the surrounding environment, it also caused consistency problems when called sev-
-eral times a second. Therefore we found a more sequential approach to yield the best result.\
-This implementation, however, caused a lot of overhead in the _sensingLoop_ function because of all the controls made. To make the program faster we decided to minimize the number of times the plan is updated to avoid obstacles, by updating the _beliefSet_ with eventual new obstacles only when those obstacles actually represents an obstruction on our path towards the goal. 
+its intentions and actions based on the changing environment. The choice of the queueing method for the Agent represent the choice of making most of the controls over the validity and the goodness of an Intention inside the sensingLoop function. It was opted for this implementative option because the execution and revision of Intentions inside the Agent class is done in an asynchronous function, and whilst this allows for a responsive change of Intention based on the surrounding environment, it also caused consistency problems when called several times a second. Therefore it was found a more sequential approach to yield the best result.
 
 ## Project DS
-[Link to repository](https://github.com/bananna1/Project_DS_Giacomello_Vecellio.git)\
+[https://github.com/bananna1/Project_DS_Giacomello_Vecellio.git](https://github.com/bananna1/Project_DS_Giacomello_Vecellio.git)\
 [Link to report](assets/reports/report_ds.pdf)
 #### Contributors
 Anna Giacomello, Martina Vecellio Reane
@@ -62,7 +62,7 @@ Moreover, nodes can also:\
 It should discard those items that are no longer under its responsibility (due to other nodes joining while it was down) and obtain the items that are now under its responsibility (due to nodes leaving).
 
 ## SSSSSS
-[Link to repository](https://gitlab.com/smaniottonicola/ssssss.git)\
+[https://gitlab.com/smaniottonicola/ssssss.git](https://gitlab.com/smaniottonicola/ssssss.git)\
 [Link to report](assets/reports/report_ssssss.pdf)
 #### Contributors
 William Riccardo Duro, Anna Giacomello, Nicola Smaniotto
@@ -70,7 +70,7 @@ William Riccardo Duro, Anna Giacomello, Nicola Smaniotto
 Java
 #### Description
 SSSSSS - Shamir's Secret Sharing Secure Storage System is an implementation of Shamir's Secret Sharing to achieve security of files storage. It is of course based on the generation of shares that disclose a secret when a party possesses at least an amount of them equal to a threshold, which is set in the initialization phase.\
-The functionalities a user can benefit from thanks to this project are:\
+The functionalities a user can benefit from thanks to this project are the following:\
 • Encrypt a file, to protect it from an attacker, with AES-256 GCM\
 • Copy the encrypted file on all their devices, to have it always accessible\
 • Set a threshold of devices that are needed to recover the file\
