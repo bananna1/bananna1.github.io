@@ -13,7 +13,7 @@ The trader focuses on accumulating as many goods as possible, each time ponderin
 
 ## HouseLocker
 [Link to repository](https://github.com/davipase/HouseLocker.git)\
-[Link to report](/assets/reports/report_houselocker.pdf)
+[Link to report](assets/reports/report_houselocker.pdf)
 #### Contributors
 William Riccardo Duro, Anna Giacomello, Davide Pasetto, Federico Valbusa
 #### Languages
@@ -27,7 +27,7 @@ The project includes a zero-knowledge proof mechanism implemented during user re
 
 ## ASA - Dunder Mifflin
 [Link to repository](https://github.com/bananna1/ASA_dunder_mifflin.git)\
-[Link to report](/assets/reports/report_asa.pdf)
+[Link to report](assets/reports/report_asa.pdf)
 #### Contributors
 Anna Giacomello, Davide Pasetto
 #### Languages
@@ -63,7 +63,7 @@ It should discard those items that are no longer under its responsibility (due t
 
 ## SSSSSS
 [Link to repository](https://gitlab.com/smaniottonicola/ssssss.git)\
-[Link to report](/assets/reports/report_ssssss.pdf)
+[Link to report](assets/reports/report_ssssss.pdf)
 #### Contributors
 William Riccardo Duro, Anna Giacomello, Nicola Smaniotto
 #### Languages
