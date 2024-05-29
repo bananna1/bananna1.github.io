@@ -43,7 +43,7 @@ This implementation, however, caused a lot of overhead in the _sensingLoop_ func
 
 ## Project DS
 [Link to repository](https://github.com/bananna1/Project_DS_Giacomello_Vecellio.git)\
-[Link to report](/assets/reports/report_ds.pdf)
+[Link to report](assets/reports/report_ds.pdf)
 #### Contributors
 Anna Giacomello, Martina Vecellio Reane
 #### Languages
