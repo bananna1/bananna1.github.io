@@ -3,22 +3,22 @@
 ## Trader
 [Link to repository](https://github.com/bananna1/trader.git)
 
-### Contributors
+#### Contributors
 Anna Giacomello
-### Languages
+#### Languages
 Rust
-### Description
+#### Description
 Trader implements a BOT that is capable of exchanging currencies with three stock markets, implemented ad-hoc for this project. The markets have been developed by other contributors, not the author of this repository.\
 The trader focuses on accumulating as many goods as possible, each time pondering what actions is better: whether to sell or buy, which currency to focus on, which market to focus on.
 
 ## HouseLocker
 [Link to repository](https://github.com/davipase/HouseLocker.git)\
-[Link to report](/assets/reports/report_houselocker)
-### Contributors
+[Link to report](/assets/reports/report_houselocker.pdf)
+#### Contributors
 William Riccardo Duro, Anna Giacomello, Davide Pasetto, Federico Valbusa
-### Languages
+#### Languages
 Solidity, JavaScript
-### Description
+#### Description
 HouseLocker is a project that aims to address a significant problem in the housing market for university students: too many room reservations are unofficial and solely based on trust, often happening via platforms that are not suitable for this kind of business, e.g. Facebook. This can lead to students being robbed or scammed by landlords, who usually have the upper hand in this kind of relationship.\
 The solution implemented uses blockchain to create a platform that allows landlords and students to interact without having to rely on human trust.\
 The business relationship is managed by a smart contract, which stores deposits temporarily, only releasing them to the respective parties when both parties are satisfied. Both parties are allowed to hibernate the contract at any moment if they feel something suspicious is going on. This allows for human intervention when deemed necessary, particularly by authorities in case of illegitimate actions performed by one of the parties.
@@ -27,12 +27,12 @@ The project includes a zero-knowledge proof mechanism implemented during user re
 
 ## ASA - Dunder Mifflin
 [Link to repository](https://github.com/bananna1/ASA_dunder_mifflin.git)\
-[Link to report](/assets/reports/report_asadundermifflin)
-### Contributors
+[Link to report](/assets/reports/report_asa.pdf)
+#### Contributors
 Anna Giacomello, Davide Pasetto
-### Languages
+#### Languages
 JavaScript, PDDL
-### Description
+#### Description
 The agent’s decision-making process follows a cyclical workflow: The _sensingLoop_ function is called periodically, and it generates a list of options based on the agent’s observations about the environment surrounding it. The options are filtered based on their utility, which is a custom value based on some calcula-
 tions, and the best option is selected for execution. The selected option is added to the intention queue, managed by the _IntentionRevisionQueue_ class. _IntentionRevisionQueue_ continuously revises and executes intentions from the queue, ensuring that the most recent intentions are considered. Each intention is achieved by selecting and executing appropriate plans from the plan library.
 
@@ -43,12 +43,12 @@ This implementation, however, caused a lot of overhead in the _sensingLoop_ func
 
 ## Project DS
 [Link to repository](https://github.com/bananna1/Project_DS_Giacomello_Vecellio.git)\
-[Link to report](/assets/reports/report_ds)
-### Contributors
+[Link to report](/assets/reports/report_ds.pdf)
+#### Contributors
 Anna Giacomello, Martina Vecellio Reane
-### Languages
+#### Languages
 Java
-### Description
+#### Description
 This project is an implementation of a DHT-based peer-to-peer key-value storage service inspired by Amazon Dynamo. The system consists of multiple storage nodes
 The partitioning is based on the keys that are associated with both the stored items and the nodes; the keys form a circular space or “ring”, i.e., the largest key value wraps around to the smallest key value. A data item with key K should be stored by the first N nodes in the clockwise direction from K on the ring, where N is a system parameter that defines the degree of replication.\
 To implement replication, the system relies on quorums. Versions are associated internally with every data item to support consistent reads. System-wide parameters are present to specify the write and read quorums.\
@@ -63,12 +63,12 @@ It should discard those items that are no longer under its responsibility (due t
 
 ## SSSSSS
 [Link to repository](https://gitlab.com/smaniottonicola/ssssss.git)\
-[Link to report](/assets/reports/report_ssssss)
-### Contributors
+[Link to report](/assets/reports/report_ssssss.pdf)
+#### Contributors
 William Riccardo Duro, Anna Giacomello, Nicola Smaniotto
-### Languages
+#### Languages
 Java
-### Description
+#### Description
 SSSSSS - Shamir's Secret Sharing Secure Storage System is an implementation of Shamir's Secret Sharing to achieve security of files storage. It is of course based on the generation of shares that disclose a secret when a party possesses at least an amount of them equal to a threshold, which is set in the initialization phase.\
 The functionalities a user can benefit from thanks to this project are:\
 • Encrypt a file, to protect it from an attacker, with AES-256 GCM\
@@ -78,11 +78,11 @@ The functionalities a user can benefit from thanks to this project are:\
 • Outdated or compromised shares can be excluded from the system\
 
 ## GearUp
-### Contributors
+#### Contributors
 Anna Giacomello
-### Languages
+#### Languages
 Python
-### Description
+#### Description
 GearUp is a service-oriented application that targets people wanting to starting their hiking hobby. It is an application that offers several functionalities:\
 • Search for mountain huts\
 • Find the paths to the huts, considering a chosen starting point\
