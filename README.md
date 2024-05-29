@@ -1,4 +1,4 @@
-# Projects
+# Anna Giacomello
 
 ## Trader
 [Link to repository](https://github.com/bananna1/trader.git)
